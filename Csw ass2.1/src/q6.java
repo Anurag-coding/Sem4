@@ -1,4 +1,3 @@
-
 class Animal{
 	String name;
 	String color;

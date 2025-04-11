@@ -25,6 +25,8 @@ class stud implements Comparable <stud> {
 	public int compareTo(stud o) {
 		return Integer.compare(this.rollNumber, o.rollNumber);
 	}
+}
+public class q5 {
     public static void bubbleSort (stud[] students) {
         int n = students.length;
         for (int i = 0; i < n - 1; i++) {
@@ -37,7 +39,6 @@ class stud implements Comparable <stud> {
             }
         }
     }
-  public class q5 {
     public static void main(String[] args) {
         stud[] students = {
             new stud("Alice", 3, 85),
@@ -51,5 +52,4 @@ class stud implements Comparable <stud> {
         System.out.println("After sorting:");
         System.out.println(Arrays.toString(students));
     }
-  }
 }
